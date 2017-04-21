@@ -1,0 +1,28 @@
+    h1 {
+        text-align: center;
+    }
+    
+    #timeHeading {
+        font-family: 'UnifrakturCook', cursive;
+        font-size: 2em;
+    }
+    
+    #question {
+        font-family: 'Concert One', cursive;
+    }
+    
+    #answers {
+        font-family: 'Cinzel', serif;
+    }
+    li{
+        font-size: 1.2em;
+    }
+    li:hover {
+        background-color: lemonchiffon;
+    }
+    #score {
+        font-size: 1.5em;
+    }
+    #pnt {
+        font-size: 1.2em;
+    }
