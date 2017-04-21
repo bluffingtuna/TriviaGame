@@ -62,7 +62,7 @@ $(document).ready(function() {
         currentAnswer = $('#question').attr('answer');
         console.log(currentAnswer);
         q++;
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + currentAnswer + currentQuestion + "&api_key=dc6zaTOxFJmzC&limit=100";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + currentAnswer + currentQuestion + "&api_key=dc6zaTOxFJmzC&limit=100";
         $.ajax({
             url: queryURL,
             method: 'GET'
